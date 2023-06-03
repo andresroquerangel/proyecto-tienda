@@ -1,0 +1,217 @@
+.py-3{
+    background-color: #f6f9ff;
+}
+
+.menu-lateral{
+    position: fixed;
+}
+
+.w-100{
+    margin-left: 20px;
+}
+
+/* INDICE */
+
+.contenedor-index{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.columna-indice-datos{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.tarjeta-index{
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.cuadro-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.cuadro-imagen img{
+    height: 50px;
+    width: 50px;
+}
+
+.cuadro-tarjeta{
+    display: flex;
+    align-items: center;
+}
+
+.cuadro-texto{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.contenedor-caja{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 5px 2px 2px 2px 2px black;
+}
+
+/* PEDIDO */
+.info-pedido .una-columna{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info-pedido .dos-columna{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info-pedido .izq{
+    margin-right: 20px;
+}
+
+.info-pedido .der{
+    margin-left: 20px;
+}
+
+/* PDF */
+.bar_imagen {
+    display: flex;
+}
+
+.bar_imagen img {
+    height: 150px;
+    width: 150px;
+}
+
+.bar_imagen h2 {
+    text-align: center;
+}
+
+.contenedor_formato {
+    border: 2px solid black;
+}
+
+.contenedor_formato .row {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    background-color: #a5a5a5;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tabla_tareas{
+    margin-bottom: 10px;
+}
+
+.tabla_tareas table {
+    table-layout: fixed;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    border-collapse: collapse;
+}
+
+.tabla_tareas th {
+    background: #d9d9d9;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.tabla_tareas td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.tabla_tareas .sin-formato{
+    border: 0px;
+}
+
+.tabla_tareas td:last-child {
+    border-right: 0 none;
+    text-align: center;
+}
+
+.fotografia_empleado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.tabla_domicilio{
+    table-layout: fixed;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    border-collapse: collapse;
+}
+
+.tabla_domicilio tr .dos-columna{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.tabla_domicilio tr .una-columna{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.tabla_domicilio .t_campo{
+    background: #d9d9d9;
+    width: 90px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabla_domicilio .v_campo{
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+/*EDITAR ARTICULO*/
+.cuadro-imagen-articulo {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro-imagen-articulo img {
+    width: 500px;
+    height: 500px;
+}
+
+.cuadro-informacion-articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuadro-informacion-articulo h2 {
+    margin-bottom: 70px;
+}
+
+.cuadro-informacion-articulo2 * {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
